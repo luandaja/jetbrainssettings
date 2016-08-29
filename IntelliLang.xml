@@ -1,0 +1,73 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>active-directory-modal/@owner-control-fn</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("owner-control-fn")).withParent(xmlTag().withLocalName(string().equalTo("active-directory-modal")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>body/@ng-app</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-app")).withParent(xmlTag().withLocalName(string().equalTo("body")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>input/@ng-enter</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-enter")).withParent(xmlTag().withLocalName(string().equalTo("input")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>js-tree-view/@install-device-service</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("install-device-service")).withParent(xmlTag().withLocalName(string().equalTo("js-tree-view")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>js-tree-view/@selected-list</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("selected-list")).withParent(xmlTag().withLocalName(string().equalTo("js-tree-view")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>js-tree-view/@source-list</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("source-list")).withParent(xmlTag().withLocalName(string().equalTo("js-tree-view")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>record-detail/@object-id</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("object-id")).withParent(xmlTag().withLocalName(string().equalTo("record-detail")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@control-id</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("control-id")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@drag-key</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("drag-key")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@ds-key</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ds-key")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@icon</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("icon")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@items-list</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("items-list")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@module</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("module")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@remove-item-message</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("remove-item-message")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>sidebar-sub-item/@uisref</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("uisref")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>verify-credentials/@object-id</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("object-id")).withParent(xmlTag().withLocalName(string().equalTo("verify-credentials")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
