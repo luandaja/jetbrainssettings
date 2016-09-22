@@ -14,6 +14,10 @@
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-app")).withParent(xmlTag().withLocalName(string().equalTo("body")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
     <injection language="AngularJS" injector-id="xml">
+      <display-name>div/@ng-click</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-click")).withParent(xmlTag().withLocalName(string().equalTo("div")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
       <display-name>input/@ng-enter</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-enter")).withParent(xmlTag().withLocalName(string().equalTo("input")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
