@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="borrar" type="PLAIN_TEXT" />
+      <mapping pattern="gulp_server_dev.bat" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
