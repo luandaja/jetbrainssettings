@@ -17,9 +17,9 @@
           <value>
             <configuration>
               <credentials>
-                <credentials type="NtlmNative">
+                <credentials>
                   <domain>SPECTOR</domain>
-                  <password />
+                  <password>dfebdfcddfdfdfc3dfc6dfeadf98df9fdf9bdf9b</password>
                   <username>ladajacobo</username>
                 </credentials>
               </credentials>
