@@ -73,5 +73,25 @@
       <display-name>verify-credentials/@object-id</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("object-id")).withParent(xmlTag().withLocalName(string().equalTo("verify-credentials")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>widget-container/@control-id</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("control-id")).withParent(xmlTag().withLocalName(string().equalTo("widget-container")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>widget-container/@glyph-title-btn-template</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("glyph-title-btn-template")).withParent(xmlTag().withLocalName(string().equalTo("widget-container")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>widget-container/@on-load-fn</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("on-load-fn")).withParent(xmlTag().withLocalName(string().equalTo("widget-container")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>widget-container/@on-unload-fn</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("on-unload-fn")).withParent(xmlTag().withLocalName(string().equalTo("widget-container")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>widget-container/@widget-container-panels</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("widget-container-panels")).withParent(xmlTag().withLocalName(string().equalTo("widget-container")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
   </component>
 </application>
