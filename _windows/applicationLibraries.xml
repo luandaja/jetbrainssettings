@@ -11,5 +11,27 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="highcharts-more" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.highcharts.com_highcharts-more.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.highcharts.com_highcharts-more.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="solid-gauge" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.highcharts.com_modules_solid-gauge.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.highcharts.com_modules_solid-gauge.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
