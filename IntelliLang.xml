@@ -38,6 +38,10 @@
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("object-id")).withParent(xmlTag().withLocalName(string().equalTo("record-detail")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
     <injection language="AngularJS" injector-id="xml">
+      <display-name>section/@ng-controller</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-controller")).withParent(xmlTag().withLocalName(string().equalTo("section")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
       <display-name>sidebar-sub-item/@control-id</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("control-id")).withParent(xmlTag().withLocalName(string().equalTo("sidebar-sub-item")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
