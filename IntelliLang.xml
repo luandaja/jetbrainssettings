@@ -14,6 +14,14 @@
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("owner-control-fn")).withParent(xmlTag().withLocalName(string().equalTo("active-directory-modal")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
     <injection language="AngularJS" injector-id="xml">
+      <display-name>add-device/@install-device-service</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("install-device-service")).withParent(xmlTag().withLocalName(string().equalTo("add-device")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>add-user/@install-user-service</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("install-user-service")).withParent(xmlTag().withLocalName(string().equalTo("add-user")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
       <display-name>body/@ng-app</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-app")).withParent(xmlTag().withLocalName(string().equalTo("body")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
